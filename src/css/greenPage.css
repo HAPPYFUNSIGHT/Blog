@@ -50,6 +50,7 @@ h3 {
     height: 30px;
     line-height: 30px;
     padding-left: 10px;
+    margin: 6px 0;
 }
 
 /*超链接*/
@@ -234,11 +235,12 @@ image {
 
 .postTitle {
     padding-bottom: 10px;
-    font-size: 20px;
     font-weight: bold;
+    font-size: 28px !important;
     color: #464646;
-    background: url('http://images.cnblogs.com/cnblogs_com/libaoheng/305804/o_br229512.link(en-us,MSDN.10).gif') no-repeat 0 3px;
     padding-left: 30px;
+    background: url('http://files.cnblogs.com/files/vicfeel/index.gif') 0 10px no-repeat;
+    background-size: 22px;
 }
 
 .dayTitle {
@@ -504,33 +506,72 @@ image {
     width: 300px;
     height: auto;
 }
+
 /*文章内表格*/
 #cnblogs_post_body table, .cnblogs-post-body table {
     margin: 20px auto;
     width: 500px;
 }
 
-#cnblogs_post_body a{
-    color:#5a815f!important;
+#cnblogs_post_body a {
+    color: #5a815f !important;
 }
-blockquote{
-    background-color:#eee;
-    margin:10px;
-    padding:0px 10px;
+
+blockquote {
+    background-color: #eee;
+    margin: 10px;
+    padding: 0px 10px;
 }
-#cnblogs_post_body h2{
-    padding:10px 0px;
+
+#cnblogs_post_body h2 {
+    padding: 10px 0px;
 }
 
 #green_channel {
-    text-align: right;
-    padding-left: 20px;
     font-weight: normal;
     font-size: 15px;
     width: auto;
     color: #fff;
-    padding: 20px;
+    padding: 28px;
     border-radius: 4px;
+    text-align: center;
+}
+
+#div_digg {
+    margin: -98px 10px 0 0;
+}
+
+.diggit {
+    float: right;
+    width: 55px;
+    height: 90px;
+    background: url(http://files.cnblogs.com/files/vicfeel/recommend.gif) no-repeat;
+    cursor: pointer;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-size: 100%;
+    line-height: 80px;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    -ms-background-position-y: 7px;
+    background-position-y: 7px;
+}
+.diggit:hover{
+    width: 65px;
+    -ms-background-position-y: 0;
+    background-position-y: 0;
+}
+
+.diggnum {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.diggword, .buryit {
+    display: none;
 }
 
 /*最新评论*/
@@ -546,7 +587,7 @@ blockquote{
 }
 
 #author_profile {
-    margin-top: -75px;
+    margin-top: -90px;
     margin-left: 10px;
     font-size: 12px;
 }
@@ -555,6 +596,10 @@ blockquote{
     float: right;
     padding-right: 10px;
     line-height: 30px;
+}
+
+#comment_nav a {
+    color: #fff;
 }
 
 #ad_t2, #ad_c1, #ad_c2, #under_post_news, #under_post_kb {
