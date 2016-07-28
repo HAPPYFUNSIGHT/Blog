@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>relative样式</title>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<script>
+    var request = new XMLHttpRequest();
+    request.open('GET','http://localhost:3000',true);
+    request.onreadystatechange = function(){
+        if(request.readyState === 4 && request.status == 200){
+            console.log(request.responseText);
+        }
+    };
+    request.send();
+</script>
+</body>
+</html>
