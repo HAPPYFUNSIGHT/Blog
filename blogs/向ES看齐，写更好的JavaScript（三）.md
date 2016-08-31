@@ -1,10 +1,6 @@
-本文是ES6系列的第二篇，主要介绍ES6中对现有对象方法属性的拓展，先上传送门：
+#向ES6看齐，用更好的JavaScript（二）
 
-* [1 变量部分](http://www.cnblogs.com/vicfeel/p/5808277.html)
-* **[2 现有对象拓展](http://www.cnblogs.com/vicfeel/p/5822068.html)**
-* 3 新增数据类型/数据结构
-* 4 新的异步编程模式
-* 5 类和模块
+[上一篇](http://www.cnblogs.com/vicfeel/p/5808277.html) 中介绍了关于**变量部分**的新特性，本篇将从**现有对象的拓展**来展开介绍
 
 ###1 增加了模板字符串
 
@@ -51,9 +47,9 @@
     let fakeArr3 = document.querySelectorAll('div');
     
     //上面三类都是伪数组对象
-    'forEach' in fakeArr1; //false
+    forEach in fakeArr1; //false
     let arr = Array.from(fakeArr1); //ES5的写法 var arr = Array.slice.call(fakeArr1);
-    'forEach' in arr;   //true
+    forEach in arr;   //true
     
 ```
 
