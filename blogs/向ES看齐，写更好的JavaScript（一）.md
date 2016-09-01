@@ -7,7 +7,7 @@
 
 * **[1 变量部分](http://www.cnblogs.com/vicfeel/p/5808277.html)**
 * [2 现有对象拓展](http://www.cnblogs.com/vicfeel/p/5822068.html)
-* 3 新增数据类型/数据结构
+* [3 新增数据类型/数据结构](http://www.cnblogs.com/vicfeel/p/5829568.html)
 * 4 新的异步编程模式
 * 5 类和模块
 
